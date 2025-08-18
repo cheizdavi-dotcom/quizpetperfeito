@@ -858,22 +858,27 @@ body {
 
 /* Cronômetro e Preço */
 .urgency-pricing {
-    background: linear-gradient(135deg, rgba(255, 140, 0, 0.2) 0%, rgba(255, 69, 0, 0.2) 100%); /* Laranja Escuro e Laranja avermelhado */
-    padding: 40px;
-    border-radius: 20px;
-    border: 3px solid #FF8C00; /* Laranja Escuro */
-    text-align: center;
-    margin-bottom: 40px;
+  background: linear-gradient(135deg, rgba(255, 140, 0, 0.2) 0%, rgba(255, 69, 0, 0.2) 100%);
+  padding: 40px;
+  border-radius: 20px;
+  border: 3px solid #ff8c00;
+  text-align: center;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+
 .urgency-alert {
-    font-size: 1.4em;
-    color: #FF8C00; /* Laranja Escuro */
-    font-weight: 700;
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  font-size: 1.4em;
+  color: #ff8c00;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-transform: uppercase;
 }
+
 
 .countdown-display {
     display: flex;
@@ -1141,5 +1146,23 @@ body {
         font-size: 1.4em;
     }
 }
+.original-pricing {
+    font-size: 1.2em;
+    text-decoration: line-through;
+    color: #ccc;
+    margin-right: 15px;
+}
 
+.current-pricing {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #ffc107;
+}
+
+.pricing-display {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
 
