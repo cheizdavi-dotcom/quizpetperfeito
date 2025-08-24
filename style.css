@@ -1140,37 +1140,30 @@ box-shadow: 0 8px 20px rgba(255, 99, 71, 0.6), 0 0 15px rgba(255, 140, 0, 0.7); 
         box-shadow: 0 15px 40px rgba(255, 107, 53, 0.5);
     }
 }
-
 @media screen and (max-width: 600px) {
-    .cta-button {
-        padding: 20px;
-        font-size: 1.4em;
-    }
+  .cta-button {
+    padding: 20px;
+    font-size: 1.4em;
+  }
 }
 .original-pricing {
-    font-size: 1.2em;
-    text-decoration: line-through;
-    color: #ccc;
-    margin-right: 15px;
+  font-size: 1.2em;
+  text-decoration: line-through;
+  color: #ccc;
+  margin-right: 15px;
 }
 
 .current-pricing {
-    font-size: 2.5em;
-    font-weight: bold;
-    color: #ffc107;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #ffc107;
 }
 
 .pricing-display {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    margin-bottom: 30px;
-}
-.original-pricing {
-    font-size: 1.2em;
-    text-decoration: line-through;
-    color: #ccc;
-    margin-bottom: 10px; /* Espaço entre os preços */
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 30px;
 }
 
 .current-pricing {
