@@ -1185,3 +1185,29 @@ box-shadow: 0 8px 20px rgba(255, 99, 71, 0.6), 0 0 15px rgba(255, 140, 0, 0.7); 
     font-weight: normal;
     margin-right: 5px;
 }
+
+.urgency-container {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.cronometro-tempo {
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffc107;
+    margin: 10px 0;
+}
+
+.preco-real {
+    font-size: 1.2em;
+    text-decoration: line-through;
+    color: #ccc;
+    margin-right: 15px;
+}
+
+.preco-hoje {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+}
