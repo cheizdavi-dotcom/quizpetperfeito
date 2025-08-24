@@ -1165,4 +1165,22 @@ body {
     align-items: baseline;
     margin-bottom: 30px;
 }
+.original-pricing {
+    font-size: 1.2em;
+    text-decoration: line-through;
+    color: #ccc;
+    margin-bottom: 10px; /* Espaço entre os preços */
+}
 
+.current-pricing {
+    font-size: 3em; /* Preço hoje bem maior */
+    font-weight: bold;
+    color: #ffc107; /* Cor amarela de destaque */
+}
+
+.current-pricing .price-label {
+    font-size: 0.8em; /* Rótulo "Preço Hoje:" menor */
+    color: #fff;
+    font-weight: normal;
+    margin-right: 5px;
+}
