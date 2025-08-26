@@ -58,9 +58,35 @@ body {
     line-height: 1.4;
 }
 
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
 
+.option-btn {
+    width: 100%;
+    padding: 18px 25px;
+    min-height: 55px;
+    font-size: 1.1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.option-btn:hover {
+    background-color: #e6eef7;
+    border-color: #c9d7e3;
+}
 
+.option-btn.selected {
+    background-color: #e6eef7;
+    border-color: #007bff;
+    color: #007bff;
+    font-weight: 700;
+}
 
 .feedback-container {
     width: 100%;
@@ -312,7 +338,15 @@ box-shadow: 0 8px 20px rgba(255, 99, 71, 0.6), 0 0 15px rgba(255, 140, 0, 0.7); 
         margin-bottom: 20px;
     }
 
-    
+    .options {
+        gap: 12px; /* Aumentado o espaçamento entre as opções */
+    }
+
+    .option-btn {
+        padding: 14px 18px; /* Aumentado o padding */
+        font-size: 1em; /* Aumentado para melhor legibilidade */
+        border-radius: 12px;
+    }
 
     .feedback {
         padding: 12px;
@@ -1154,47 +1188,4 @@ box-shadow: 0 8px 20px rgba(255, 99, 71, 0.6), 0 0 15px rgba(255, 140, 0, 0.7); 
   color: #fff;
   margin: 0 10px;
   line-height: 1;
-}
-/* Estilo para o título das perguntas */
-.question-title {
-  font-size: 1.8em;
-  color: #fff; /* Cor do texto branco */
-  margin-bottom: 25px;
-  font-weight: bold;
-  text-align: center;
-}
-
-/* Estilo para as opções de resposta */
-/* Estilo para as opções de resposta */
-.options {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  margin-bottom: 20px;
-  width: 100%;
-}
-
-.quiz-option {
-  background-color: #333; /* Fundo cinza escuro */
-  color: #fff; /* Texto branco */
-  padding: 15px 20px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-size: 1.1em;
-  text-align: center;
-  border: 2px solid transparent;
-}
-
-.quiz-option:hover {
-  background-color: #4a4a4a; /* Fundo mais claro ao passar o mouse */
-  border-color: #ffc107; /* Borda amarela ao passar o mouse */
-  transform: translateY(-2px);
-}
-
-.quiz-option.selected {
-  background-color: #ffc107; /* Fundo amarelo */
-  color: #333; /* Texto escuro */
-  border-color: #ffc107;
-  font-weight: bold;
 }
