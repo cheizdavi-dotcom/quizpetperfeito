@@ -51,44 +51,41 @@ body {
 }
 
 .question-title {
-  font-size: 1.8em;
-  color: #fff; /* Cor do texto branco */
-  margin-bottom: 25px;
-  font-weight: bold;
-  text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 25px;
+    line-height: 1.4;
 }
 
 .options {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
 }
 
 .option-btn {
-  background-color: #333; /* Fundo cinza escuro */
-  color: #fff; /* Texto branco */
-  padding: 15px 20px;
-  margin-bottom: 15px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-size: 1.1em;
-  text-align: center;
-  border: 2px solid transparent; /* Borda transparente inicial */
+    width: 100%;
+    padding: 18px 25px;
+    min-height: 55px;
+    font-size: 1.1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .option-btn:hover {
-  background-color: #4a4a4a;
-  border-color: #ffc107;
-  transform: translateY(-2px);
+    background-color: #e6eef7;
+    border-color: #c9d7e3;
 }
 
 .option-btn.selected {
-  background-color: #ffc107;
-  color: #333;
-  border-color: #ffc107;
-  font-weight: bold;
+    background-color: #e6eef7;
+    border-color: #007bff;
+    color: #007bff;
+    font-weight: 700;
 }
 
 .feedback-container {
