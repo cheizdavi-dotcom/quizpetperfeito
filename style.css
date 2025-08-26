@@ -1147,3 +1147,35 @@ box-shadow: 0 8px 20px rgba(255, 99, 71, 0.6), 0 0 15px rgba(255, 140, 0, 0.7); 
     margin-right: 5px;
     color: #fff;
 }
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.countdown-number {
+  font-size: 3em;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1;
+}
+
+.countdown-label {
+  font-size: 0.8em;
+  color: #ccc;
+  text-transform: uppercase;
+}
+
+.countdown-separator {
+  font-size: 3em;
+  color: #fff;
+  margin: 0 10px;
+  line-height: 1;
+}
