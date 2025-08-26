@@ -918,41 +918,7 @@ box-shadow: 0 8px 20px rgba(255, 99, 71, 0.6), 0 0 15px rgba(255, 140, 0, 0.7); 
     font-weight: 800;
 }
 
-.pricing-display {
-    margin-bottom: 30px;
-}
 
-.original-pricing {
-    margin-bottom: 20px;
-}
-
-.original-pricing .price-label {
-    color: #FF8C00; /* Laranja Escuro */
-    font-size: 1.2em;
-    font-weight: 600;
-}
-
-.original-pricing .original-price {
-    color: #FF8C00; /* Laranja Escuro */
-    font-size: 2em;
-    font-weight: 700;
-    text-decoration: line-through;
-    margin-left: 15px;
-}
-
-.current-pricing .price-label {
-    color: #22c55e;
-    font-size: 1.4em;
-    font-weight: 700;
-}
-
-.current-pricing .current-price {
-    color: #22c55e;
-    font-size: 3.5em;
-    font-weight: 800;
-    margin-left: 20px;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
-}
 
 .guarantee-info {
     background: rgba(255, 255, 255, 0.1);
@@ -1146,61 +1112,38 @@ box-shadow: 0 8px 20px rgba(255, 99, 71, 0.6), 0 0 15px rgba(255, 140, 0, 0.7); 
     font-size: 1.4em;
   }
 }
-.original-pricing {
-    font-size: 1.2em;
-    text-decoration: line-through;
-    color: #ccc;
-    margin-right: 15px;
-}
-
-.current-pricing {
-    font-size: 2.5em;
-    font-weight: bold;
-    color: #ffc107;
+.pricing-section {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .pricing-display {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.current-pricing {
-    font-size: 3em; /* Preço hoje bem maior */
-    font-weight: bold;
-    color: #ffc107; /* Cor amarela de destaque */
-}
-
-.current-pricing .price-label {
-    font-size: 0.8em; /* Rótulo "Preço Hoje:" menor */
-    color: #fff;
-    font-weight: normal;
-    margin-right: 5px;
-}
-
-.urgency-container {
-    text-align: center;
-    color: #fff;
-    margin-bottom: 25px;
-}
-
-.cronometro-tempo {
-    font-size: 3em;
-    font-weight: bold;
-    color: #ffc107;
-    margin: 10px 0;
-}
-
-.preco-real {
+.original-price {
     font-size: 1.2em;
     text-decoration: line-through;
     color: #ccc;
     margin-right: 15px;
 }
 
-.preco-hoje {
+.current-price {
+    display: flex;
+    align-items: baseline;
     font-size: 2.5em;
     font-weight: bold;
+    color: #ffc107;
+}
+
+.current-price .price-label {
+    font-size: 0.8em;
+    font-weight: normal;
+    margin-right: 5px;
     color: #fff;
 }
