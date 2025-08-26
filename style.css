@@ -66,26 +66,31 @@ body {
 }
 
 .option-btn {
-    width: 100%;
-    padding: 18px 25px;
-    min-height: 55px;
-    font-size: 1.1em;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #333; /* Fundo cinza escuro */
+  color: #fff; /* Texto branco */
+  border: 2px solid transparent; /* Borda transparente inicial */
+  border-radius: 10px;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 15px;
 }
 
 .option-btn:hover {
-    background-color: #4a148c;
-    border-color: #c9d7e3;
+  background-color: #4a4a4a; /* Fundo mais claro ao passar o mouse */
+  border-color: #ffc107; /* Borda amarela ao passar o mouse */
+  transform: translateY(-2px);
 }
 
 .option-btn.selected {
-    background-color: #e6eef7;
-    border-color: #007bff;
-    color: #007bff;
-    font-weight: 700;
+  background-color: #ffc107; /* Fundo amarelo ao selecionar */
+  color: #333; /* Texto escuro para contraste */
+  border-color: #ffc107;
+  font-weight: bold;
 }
 
 .feedback-container {
